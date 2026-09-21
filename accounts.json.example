@@ -1,0 +1,14 @@
+[
+  {
+    "account_id": "acc_1",
+    "name": "Akun Utama",
+    "refresh_token": "PASTE_REFRESH_TOKEN_HERE",
+    "proxy": ""
+  },
+  {
+    "account_id": "acc_2",
+    "name": "Akun Ke-2",
+    "refresh_token": "PASTE_REFRESH_TOKEN_HERE",
+    "proxy": "http://user:pass@ip:port"
+  }
+]
