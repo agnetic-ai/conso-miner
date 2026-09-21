@@ -19,8 +19,7 @@ PROMPTS = [
 MODELS = [
     {"platform": "gemini", "model": "gemini-1.5-pro", "base_zaps": 1.5, "spend": 0.02},
     {"platform": "chatgpt", "model": "gpt-4o", "base_zaps": 1.8, "spend": 0.025},
-    {"platform": "claude", "model": "claude-3-5-sonnet", "base_zaps": 2.0, "spend": 0.03},
-    {"platform": "perplexity", "model": "sonar-pro", "base_zaps": 1.4, "spend": 0.018}
+    {"platform": "claude", "model": "claude-3-5-sonnet", "base_zaps": 2.0, "spend": 0.03}
 ]
 
 class Miner:

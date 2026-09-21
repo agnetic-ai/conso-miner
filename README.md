@@ -10,7 +10,7 @@ Bot automasi penambang poin **Zaps** pada ekstensi **Conso: AI Usage Tracker** b
 - 🔄 **Auto Token Rotation:** Otomatis memperbarui `access_token` dan `refresh_token` Supabase tanpa perlu login ulang di browser.
 - 👥 **Multi-Account & Proxy Support:** Bisa menangani banyak akun sekaligus dengan opsi proxy HTTP/HTTPS terpisah per akun.
 - 🎁 **Auto Daily Check-in:** Otomatis klaim *Daily Mission Check-in* setiap hari.
-- 🧠 **Simulasi Multi-AI Prompt:** Mensimulasikan prompt interaksi ke ChatGPT (`gpt-4o`), Gemini (`gemini-1.5-pro`), Claude (`claude-3-5-sonnet`), dan Perplexity (`sonar-pro`) secara acak dengan delay yang natural.
+- 🧠 **Simulasi Multi-AI Prompt:** Mensimulasikan prompt interaksi ke ChatGPT (`gpt-4o`), Gemini (`gemini-1.5-pro`), dan Claude (`claude-3-5-sonnet`) secara acak dengan delay yang natural.
 
 ---
 
