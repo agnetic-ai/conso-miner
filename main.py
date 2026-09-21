@@ -49,7 +49,7 @@ def run_account_cycle(auth_mgr, account):
         log(name, f"📈 New Total Zaps: {stats.get('total_zaps')} | Daily Zaps: {stats.get('daily_zaps_earned')}")
 
 def main():
-    auth_mgr = AuthManager("/opt/conso-bot/accounts.json")
+    auth_mgr = AuthManager()
     
     print("=" * 60)
     print("🚀 CONSO AI USAGE TRACKER AUTO-MINER (MULTI-ACCOUNT)")

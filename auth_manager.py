@@ -7,7 +7,10 @@ SUPABASE_URL = "https://jzxlayjrsdbyzykuiqns.supabase.co"
 ANON_KEY = "sb_publishable_clAiRg6ffCznEAtg_bn19Q_yY0W5Hyd"
 
 class AuthManager:
-    def __init__(self, accounts_file="/opt/conso-bot/accounts.json"):
+    def __init__(self, accounts_file=None):
+        if accounts_file is None:
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            accounts_file = os.path.join(base_dir, "accounts.json")
         self.accounts_file = accounts_file
 
     def load_accounts(self):
